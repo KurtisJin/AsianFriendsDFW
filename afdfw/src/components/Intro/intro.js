@@ -1,5 +1,6 @@
 import React from 'react';
 import Typing from './Typing/Typing'
+import ReactPlayer from '../ReactPlayer/ReactPlayer'
 
 let introPage = () => {
     return (

@@ -11,6 +11,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-animated-css": "^1.2.1",
     "react-dom": "^17.0.2",
+    "react-player": "^2.9.0",
     "react-scripts": "4.0.3",
     "typed.js": "^2.0.12",
     "web-vitals": "^1.1.2"

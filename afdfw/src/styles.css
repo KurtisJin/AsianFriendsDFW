@@ -247,8 +247,8 @@ section .title::after{
     box-shadow: 0px 0px 10px 10px #0ff;
 }
 
-.join-button {
-    background-color: red;
+.media-player {
+    margin-top:-130%;
 }
 
 /* about section styling */
