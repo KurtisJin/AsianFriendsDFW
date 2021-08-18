@@ -186,8 +186,9 @@ section .title::after{
 }
 
 .introPage .max-width {
-  width: 100%;
-  display: flex;
+  width: 50%;
+  display: inline-block;
+  margin-right: 50%;
 }
 .introPage .max-width .row {
   margin-right: 0;
@@ -198,9 +199,20 @@ section .title::after{
 .introPage .introPage-content .text-2 {
     font-size: 75px;
     font-weight: 600;
-    margin-left: -3px;
+    /* margin-left: -3px; */
+    background-color: purple;
+    border-radius: 7px 7px 7px 7px;
+    width: 75%;
+    box-shadow: 10px 5px 5px black;
+    margin-left: 12.5%;
+    margin-bottom: 3%;
 }
 
+.introPage .text-3 {
+ 
+    font-size: 20px;
+    /* background-color: red; */
+}
 
 .introPage .introPage-content .text-2 .last-name:hover {
     color: crimson;
