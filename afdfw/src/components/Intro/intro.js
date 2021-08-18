@@ -10,9 +10,9 @@ let introPage = () => {
                         <div className="text-2 animate__animated animate__fadeInLeftBig"><span className="last-name">Welcome!</span></div>
                     </div>
                 </div>
-                 <div className="text-3">
+                 {/* <div className="text-3">
                     <Typing />
-                    </div>    
+                    </div>     */}
             </div>
         </section>
     )

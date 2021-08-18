@@ -6,6 +6,7 @@ import {Animated} from "react-animated-css";
 import IntroPage from './components/Intro/intro'
 import Scrollup from './components/Scrollup/ScrollUp'
 import Navigation from './components/Navigation/Nav'
+import IntroPageTypeJs from './components/IntroPageTypeJs/IntroPageType'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Scrollup />
         <Navigation />
         <IntroPage />
+        <IntroPageTypeJs/>
 
     </div>
     </Container>
