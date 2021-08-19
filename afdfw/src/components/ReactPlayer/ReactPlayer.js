@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player'
 let MediaPlayer = () => {
     return (
         <div className="player">
-            <ReactPlayer  url="https://www.youtube.com/watch?v=DDQWoe8AoUs" controls />
+            <ReactPlayer className="react-player" height="340px" width="540px" url="https://www.youtube.com/watch?v=DDQWoe8AoUs" controls />
 
         </div>
     )

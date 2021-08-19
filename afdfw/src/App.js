@@ -8,6 +8,7 @@ import Scrollup from './components/Scrollup/ScrollUp'
 import Navigation from './components/Navigation/Nav'
 import IntroPageTypeJs from './components/IntroPageTypeJs/IntroPageType'
 import ReactPlayer from './components/ReactPlayer/ReactPlayer'
+import ContactUs from './components/ContactUs/Contact'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <IntroPage />
         <IntroPageTypeJs/>
         <ReactPlayer className='media-player'/>
+        <ContactUs/>
 
     </div>
     </Container>

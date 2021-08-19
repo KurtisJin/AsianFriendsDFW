@@ -245,10 +245,15 @@ section .title::after{
     color: crimson;
     background: none;
     box-shadow: 0px 0px 10px 10px #0ff;
+    border-radius: 2px 2px 2px 2px;
 }
 
-.media-player {
-    margin-top:-130%;
+.player .react-player {
+    margin-top: -83.5%;
+    margin-left: 52.5%;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0px 0px 10px 10px #0ff ;
+
 }
 
 /* about section styling */
