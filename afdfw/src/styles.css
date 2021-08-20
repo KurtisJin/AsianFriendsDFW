@@ -630,13 +630,13 @@ section .title::after{
 .contact {
     margin-top: 10%;
     /* margin: 30px; */
-    background-color: gray;
+    background-color: rgb(106, 101, 101);
     border: 1px solid black;
     opacity: 0.6;
 }
 
 .contact .title {
-  color: black;
+  color: white;
   font-weight: bolder;
 }
 
@@ -654,7 +654,7 @@ section .title::after{
 .contact .contact-content .text {
     font-size: 20px;
     margin-bottom: 10px;
-    color: black;
+    color: white;
     font-weight: bolder;
     text-decoration-line: underline;
 }
@@ -680,12 +680,27 @@ section .title::after{
     font-size: 25px;
     color: crimson;
 }
-.contact .contact-content .info .head{
-    color: black;
+.contact .contact-content .info .head1{
+    color: white;
     font-weight: bold;
-    margin-right: 40%;
+    margin-right: 80%;
     text-decoration-line: underline;
 }
+
+.contact .contact-content .info .head2{
+    color: white;
+    font-weight: bold;
+    margin-right: 42%;
+    text-decoration-line: underline;
+}
+
+.contact .contact-content .info .head3{
+    color: white;
+    font-weight: bold;
+    margin-right: 80%;
+    text-decoration-line: underline;
+}
+
 .contact .contact-content .info .sub-title{
     color: black;
     font-weight: bold;
