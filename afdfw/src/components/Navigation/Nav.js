@@ -7,7 +7,7 @@ let Navbar = () => {
         <nav className="navbar">
             <div className="max-width">
                 <Animated enter="bounceIn" animate={true} durationEnter={1000} component="div" >
-                <div className="logo"><a href="#">Asian<span> Friends</span> of DFW</a></div>
+                <div className="logo"><a href="#"><span className="span1">A</span>sian<span className="span2"> F</span>riends of <span className="span3"> D</span>FW</a></div>
                 </Animated>
                 <ul className="menu">
                     <li><a href="#home" className="menu-btn">Home</a></li>

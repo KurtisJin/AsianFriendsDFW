@@ -102,14 +102,28 @@ section .title::after{
     font-size: 35px;
     font-weight: 600;
 }
-.navbar .logo a span{
+.navbar .logo a .span1{
+    color: rgb(25, 214, 8);
+    transition: all 0.3s ease;
+}
+
+.navbar .logo a .span2{
+    color: rgb(11, 177, 203);
+    transition: all 0.3s ease;
+}
+
+.navbar .logo a .span3{
     color: crimson;
     transition: all 0.3s ease;
 }
 
 .navbar .logo a span:hover {
-    color: blue
+    color: #0ff;
+    /* background: none; */
+    text-shadow: 10px 10px 10px 10px cyan;
+    /* border-radius: 5px 5px 5px 5px; */
 }
+
 
 .navbar.sticky .logo a span{
     color: #fff;
@@ -127,7 +141,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #0ff;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -203,23 +217,26 @@ section .title::after{
     background-color: purple;
     border-radius: 7px 7px 7px 7px;
     width: 75%;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 15px 10px 10px black;
     margin-left: 20%;
-    margin-bottom: 40%;
+    margin-bottom: 34%;
+    border: 2px solid white;
+
+}
+
+.introPage .introPage-content .text-2:hover {
+
+    background-color: rgb(220, 13, 123);
+    color: #0ff
+
 }
 
 .introPage .text-3 {
-    margin-top: -130%;
+    margin-top: -135%;
     font-size: 20px;
     margin-left: 8%;
     /* background-color: red; */
 }
-
-.introPage .introPage-content .text-2 .last-name:hover {
-    color: crimson;
-    text-shadow: 2px 2px white;
-}
-
 
 
 .introPage .introPage-content .text-3 {
@@ -232,18 +249,20 @@ section .title::after{
 }
 .introPage .introPage-content a {
     display: inline-block;
-    background: crimson;
+    background: purple;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    margin-left: 85px;
+    margin-bottom: 5%;
+    border: 2px solid white;
     transition: all 0.3s ease;
 }
 .introPage .introPage-content a:hover {
-    color: crimson;
+    color:#0ff;
     background: none;
     box-shadow: 0px 0px 10px 10px #0ff;
     border-radius: 2px 2px 2px 2px;
@@ -618,7 +637,7 @@ section .title::after{
 
 .contact .title {
   color: black;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .contact .title:hover {
@@ -634,13 +653,17 @@ section .title::after{
 }
 .contact .contact-content .text {
     font-size: 20px;
-    font-weight: 600;
     margin-bottom: 10px;
-    color: white;
+    color: black;
+    font-weight: bolder;
+    text-decoration-line: underline;
 }
+
+
 .contact .contact-content .left p {
     text-align: justify;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 .contact .contact-content .left .icons {
     margin: 10px 0;
@@ -658,12 +681,14 @@ section .title::after{
     color: crimson;
 }
 .contact .contact-content .info .head{
-    font-weight: 500;
-    color: white;
-    margin-right: 20%;
+    color: black;
+    font-weight: bold;
+    margin-right: 40%;
+    text-decoration-line: underline;
 }
 .contact .contact-content .info .sub-title{
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 .contact .right form .fields{
     display: flex;
@@ -686,7 +711,7 @@ section .title::after{
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(10, 8, 8);
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -707,18 +732,19 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  /* color: #fff; */
   display: block;
   width: 160px!important;
   height: 45px;
   outline: none;
   font-size: 18px;
-  font-weight: 500;
+  color: black;
+  font-weight: bold;
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: purple;
+  border: 2px solid white;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
