@@ -17,57 +17,57 @@ export default function ContactMe() {
 
     return (
 
-        <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact Us</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
+        <section className="contact" id="contact">
+        <div className="max-width">
+            <h2 className="title">Contact Us</h2>
+            <div className="contact-content">
+                <div className="column left">
+                    <div className="text">Get in Touch</div>
                     <p>Thank you for making it this far! This means, you may just be interested in joining us! If any questions, please don't hisitate to contact us. We will try our best to get back to you as soon as possible.</p>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Kurtis, Maggie, and the Staff</div>
+                    <div className="icons">
+                        <div className="row">
+                            <i className="fas fa-user"></i>
+                            <div className="info">
+                                <div className="head">Name</div>
+                                <div className="sub-title">Kurtis, Maggie, and the Staff</div>
                             </div>
                         </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Addison, Texas</div>
+                        <div className="row">
+                            <i className="fas fa-map-marker-alt"></i>
+                            <div className="info">
+                                <div className="head">Address</div>
+                                <div className="sub-title">Addison, Texas</div>
                             </div>
                         </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">asianfriendsofdfw@gmail.com</div>
+                        <div className="row">
+                            <i className="fas fa-envelope"></i>
+                            <div className="info">
+                                <div className="head">Email</div>
+                                <div className="sub-title">asianfriendsofdfw@gmail.com</div>
                             </div>
                         </div>
                         
                     </div>
                 </div>
-                <div class="column right">
-                    <div class="text">Message me</div>
-                    <form class="contact-form" onSubmit={sendEmail} action="#" method="POST">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" class="fullname" placeholder="Name" name="name" />
+                <div className="column right">
+                    <div className="text">Message me</div>
+                    <form className="contact-form" onSubmit={sendEmail} action="#" method="POST">
+                        <div className="fields">
+                            <div className="field name">
+                                <input type="text" className="fullname" placeholder="Name" name="name" />
                             </div>
-                            <div class="field email">
-                                <input type="text" class="email-input" placeholder="Email" name="email" />
+                            <div className="field email">
+                                <input type="text" className="email-input" placeholder="Email" name="email" />
                             </div>
                         </div>
-                        <div class="field">
-                            <input type="text" class="subject" placeholder="Subject" name="subject" />
+                        <div className="field">
+                            <input type="text" className="subject" placeholder="Subject" name="subject" />
                         </div>
-                        <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" placeholder="Message.." name="message"></textarea>
+                        <div className="field textarea">
+                            <textarea className="message" cols="30" rows="10" placeholder="Message.." name="message"></textarea>
                         </div>
-                        <div class="button-area">
-                            <button class="send-msg" type="submit" name="send" onClick="sendMail(); return false">Send message</button>
+                        <div className="button-area">
+                            <button className="send-msg" type="submit" name="send" onClick="sendMail(); return false">Send message</button>
                         </div>
                     </form>
                 </div>

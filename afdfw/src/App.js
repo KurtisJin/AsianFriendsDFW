@@ -12,7 +12,7 @@ import ContactUs from './components/ContactUs/Contact'
 
 function App() {
   return (
-    <Container maxWidth='xl'>
+    // <Container maxWidth='xl'>
     <div className="App">
      
       
@@ -24,7 +24,7 @@ function App() {
         <ContactUs/>
 
     </div>
-    </Container>
+    // </Container>
   );
 }
 
