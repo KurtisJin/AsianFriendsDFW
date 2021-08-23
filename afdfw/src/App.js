@@ -9,7 +9,7 @@ import Navigation from './components/Navigation/Nav'
 import IntroPageTypeJs from './components/IntroPageTypeJs/IntroPageType'
 import ReactPlayer from './components/ReactPlayer/ReactPlayer'
 // import Carousel from './components/Carousel/Carousel'
-import ContactUs from './components/ContactUs/Contact'
+// import ContactUs from './components/ContactUs/Contact'
 import Events from './components/Events/Events'
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <IntroPageTypeJs/>
         <ReactPlayer className='media-player'/>
         <Events/>
-        <ContactUs/>
+        {/* <ContactUs/> */}
 
     </div>
     // </Container>
