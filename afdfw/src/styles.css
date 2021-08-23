@@ -385,6 +385,7 @@ section .title::after{
     background-image: url("./components/images/events6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    border-color: white;
     /* height: 100%; */
 }
 
@@ -494,9 +495,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.projects .title::after {
-    content: "I have worked on";
-}
+
 .card-wrapper .card {
     background: #222;
     border-radius: 6px;

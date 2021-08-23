@@ -11,6 +11,8 @@ import ReactPlayer from './components/ReactPlayer/ReactPlayer'
 // import Carousel from './components/Carousel/Carousel'
 // import ContactUs from './components/ContactUs/Contact'
 import Events from './components/Events/Events'
+import MeetupPics from './components/MeetupPictures/MeetupPics'
+// import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
         <IntroPageTypeJs/>
         <ReactPlayer className='media-player'/>
         <Events/>
+        <MeetupPics/>
         {/* <ContactUs/> */}
+        {/* <Footer/> */}
 
     </div>
     // </Container>
