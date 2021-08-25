@@ -1,12 +1,15 @@
 import axios from "axios";
 
 export default {
+
+    
+
     getMeetupEvents: function() {
         return axios.get(`https://api.meetup.com/asian-friends-of-dfw/events`);
     },
 
     getEventPics: function(id) {
-        return axios.get(`https://api.meetup.com/asian-friends-of-dfw/events`);
+        return axios.get(`https://api.meetup.com/asian-friends-of-dfw/photos`);
     },
 
     
