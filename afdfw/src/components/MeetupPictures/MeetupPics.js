@@ -1,16 +1,45 @@
-import React from 'react';
+import React, { Component } from 'react';
+import API from '../../Utils/API'
 
-export default function MeetupPics() {
+class EventPics extends Component {
 
-    return (
+    constructor(props) {
+        super(props);
+        this.state = {
+            pics: [],
+            isLoaded: false,
+        }
+    }
 
-        <section className="meetupPics" id="meetupPics">
-          <div className="max-width">
-              <h2 className="title">Pictures</h2>
-          </div>
-        </section>
+    componentDidMount() {
 
-    )
+        fetch({API})
+        .then(res => res.json())
+        .then(json => {
+            this.setState({
+                isLoaded: true,
+                pics: json,
+            })
+        })
+    }
 
+    render() {
 
+        let {pics, isLoaded} = this.state;
+
+        if(!isLoaded) {
+            return (
+                <div>Loading Pics...</div>
+            )
+        } else {
+            return (
+                <div className="pics">
+                    {pics.map(Math.random)}
+
+                </div>
+            );
+        }
+    }
 }
+
+export default EventPics
