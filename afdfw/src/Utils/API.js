@@ -2,8 +2,6 @@ import axios from "axios";
 
 export default {
 
-    
-
     getMeetupEvents: function() {
         return axios.get(`https://api.meetup.com/asian-friends-of-dfw/events`);
     },

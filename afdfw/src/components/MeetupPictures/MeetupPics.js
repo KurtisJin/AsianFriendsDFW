@@ -1,45 +1,23 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
+import * as Constants from './constants';
 import API from '../../Utils/API'
 
-class EventPics extends Component {
+let MeetUpPics = () => {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            pics: [],
-            isLoaded: false,
-        }
-    }
+    const [data, setData] = useState({photos: []})
 
-    componentDidMount() {
+    useEffect( () => {
 
-        fetch({API})
-        .then(res => res.json())
-        .then(json => {
-            this.setState({
-                isLoaded: true,
-                pics: json,
-            })
-        })
-    }
 
-    render() {
+    })
 
-        let {pics, isLoaded} = this.state;
+    return (
+        <div className="event-pics">
 
-        if(!isLoaded) {
-            return (
-                <div>Loading Pics...</div>
-            )
-        } else {
-            return (
-                <div className="pics">
-                    {pics.map(Math.random)}
+        </div>
 
-                </div>
-            );
-        }
-    }
+    );
+
 }
 
-export default EventPics
+export default MeetUpPics
